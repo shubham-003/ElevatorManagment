@@ -1,10 +1,10 @@
 package com.test.ElevatorManagement;
 
-import com.test.ElevatorManagement.Model.AddJobWorker;
+import com.test.ElevatorManagement.Service.AddJobWorker;
 import com.test.ElevatorManagement.Model.Elevator;
 import com.test.ElevatorManagement.Model.ExternalRequest;
 import com.test.ElevatorManagement.Model.InternalRequest;
-import com.test.ElevatorManagement.Model.ProcessJobWorker;
+import com.test.ElevatorManagement.Service.ProcessJobWorker;
 import com.test.ElevatorManagement.Model.Request;
 import com.test.ElevatorManagement.Model.Extras.Direction;
 
@@ -33,7 +33,7 @@ public class App
 		 */
 		
 		new Thread(new AddJobWorker(elevator, request1)).start();
-		new Thread(new AddJobWorker(elevator, new Request(new InternalRequest(7), new ExternalRequest(Direction.UP, 3)))).start();
+		new Thread(new AddJobWorker(elevator, new Request(new InternalRequest(8), new ExternalRequest(Direction.UP, 3)))).start();
 		new Thread(new AddJobWorker(elevator, new Request(new InternalRequest(4), new ExternalRequest(Direction.UP, 2)))).start();
     }
 }

@@ -1,4 +1,6 @@
-package com.test.ElevatorManagement.Model;
+package com.test.ElevatorManagement.Service;
+
+import com.test.ElevatorManagement.Model.Elevator;
 
 public class ProcessJobWorker implements Runnable {
 

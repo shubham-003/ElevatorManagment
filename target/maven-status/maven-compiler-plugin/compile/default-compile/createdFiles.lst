@@ -1,7 +1,7 @@
-com\test\ElevatorManagement\Model\AddJobWorker.class
 com\test\ElevatorManagement\Model\Extras$State.class
+com\test\ElevatorManagement\Service\AddJobWorker.class
 com\test\ElevatorManagement\Model\Request.class
-com\test\ElevatorManagement\Model\ProcessJobWorker.class
+com\test\ElevatorManagement\Service\ProcessJobWorker.class
 com\test\ElevatorManagement\Model\InternalRequest.class
 com\test\ElevatorManagement\Model\ExternalRequest.class
 com\test\ElevatorManagement\Model\Extras$Direction.class

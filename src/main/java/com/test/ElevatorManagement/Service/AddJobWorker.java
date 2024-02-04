@@ -1,4 +1,7 @@
-package com.test.ElevatorManagement.Model;
+package com.test.ElevatorManagement.Service;
+
+import com.test.ElevatorManagement.Model.Elevator;
+import com.test.ElevatorManagement.Model.Request;
 
 public class AddJobWorker implements Runnable {
 
